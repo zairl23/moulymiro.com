@@ -1,0 +1,27 @@
+/*
+Theme Name: Child2012
+Description: Child theme for the Twenty Twelve theme 
+Author: github.com/zairl23
+Template: twentytwelve
+*/
+@import url("./fundation-dropdown/css/normalize.css")
+@import url("./fundation-dropdown/css/foundation.min.css");
+@import url("../twentytwelve/style.css");
+
+/* 消除a的下划线*/
+a:link {
+	text-decoration: none;
+}
+
+
+/* 增加副标题的字体大小 */
+.site-header h2 {
+	font-size: 18px;
+	font-size: 1.28571428571rem;
+}
+
+/* 改变导航菜单的字体颜色*/
+.main-navigation li a  {
+ color: #21759b;
+}
+
